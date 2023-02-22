@@ -14,8 +14,9 @@ public class LibraryTest {
 
 
     @Before
+    //this 'before' below can technically be called anything but best to use before or setUP:
     public void before() {
-        library = new Library("Eilidh's Library", 10);
+        library = new Library("Eilidh's Library", 4);
         book = new Book("Title1", "Author1", "Genre1");
         book1 = new Book("Title1", "Author1", "Genre1");
         book2 = new Book("Title2", "Author2", "Genre2");
